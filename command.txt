@@ -1,1 +1,18 @@
 This is a test of the basic repo.
+
+
+mkdir basic_repo
+cd basic_repo
+git init
+touch readMe.md
+git add .
+git commit -m "My first"
+git remote add origin https://github.com/rlyost/basic_repo.git
+git push -u origin master
+touch index.html
+touch command.txt
+git add .
+git commit -m "add 2 files"
+git push -u origin master
+open command.txt
+
